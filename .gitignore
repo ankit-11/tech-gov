@@ -1,0 +1,53 @@
+# --- Dependencies ---
+node_modules/
+.pnp
+.pnp.js
+
+# --- Environment / Secrets ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# --- Build Outputs ---
+dist/
+build/
+.vercel
+.output/
+
+# --- Logs ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+logs/
+*.log
+
+# --- IDE & System Files ---
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+thumbs.db
+
+# --- Database & Drizzle ---
+# If you use a local SQLite file (common with Drizzle/dev)
+*.db
+*.sqlite
+# Drizzle migrations (keep these if you want them shared, 
+# but ignore the meta folder if it causes conflicts)
+# migrations/.migrations_meta
+
+# --- Testing ---
+coverage/
+.nyc_output
+
+# --- TypeScript ---
+*.tsbuildinfo
