@@ -23,7 +23,7 @@ International AI treaties are currently unverifiable because nations cannot insp
 ### AI Lab Interface
 * Secure Data Anchoring: Labs submit training compute metrics and safety safeguard status.
 * TEE Simulation: Data is cryptographically signed using SHA-256 to simulate Trusted Execution Environment attestation.
-* Privacy-Preserving: Only the attestation results and hashes are exposed to the inspection dashboard.
+* Privacy-Preserving: Only the attestation results and hashes are exposed to the inspection dashboard. 
 
 ### International Inspector Interface
 * Real-time Monitoring: A global dashboard showing the compliance status of connected lab nodes.
